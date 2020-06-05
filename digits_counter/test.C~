@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define SIZE 29
+
+struct node{
+	unsigned int counter;
+	unsigned int argNum;
+	struct node *next;
+};/* node in linked list of occurences counters in files */
+
+typedef struct node Node;
+
+struct hashTableItem{
+	Node* list;
+};
+typedef struct hashTableItem hashItem;
+
+int main(){
+int i=0;
+hashItem * hashArray[SIZE];
+*hashArray=(hashItem*)malloc(SIZE*sizeof(hashItem));
+while(i<29){
+	hashArray[i]=(hashItem*)malloc(sizeof(hashItem));
+	printf("i in startArray %d\n",i);
+	if(hashArray[i]->list==NULL){
+	hashArray[i]->list = (Node*)calloc(1,sizeof(Node));
+	hashArray[i]->list->next=NULL;
+	hashArray[i]->list->counter=0;
+	hashArray[i]->list->argNum=0;
+	i++;
+	}
+	else {printf("hashArray[%d]->list Not null!",i); i++;}
+	}
+}

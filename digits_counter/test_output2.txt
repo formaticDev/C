@@ -1,0 +1,2 @@
+osboxes@osboxes:~/Desktop/C1/mmn23$ ./hash wrong_input1.txt
+Wrong format in file wrong_input1.txt.

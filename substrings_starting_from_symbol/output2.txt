@@ -1,0 +1,7 @@
+Please enter a char and string with whitespace between them: 
+Chosen symbol: Z, provided string: sfelkmwepokZfwpeocpwpSJDPOJzZZZ
+ZfwpeocpwpSJDPOJzZZZ
+ZZZ
+ZZ
+Z
+There are 4 substrings starting with Z in a given string.

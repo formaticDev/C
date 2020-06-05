@@ -1,0 +1,21 @@
+ERROR in line 4: to many operands after instruction.
+ERROR in line 10: to many operands after instruction.
+ERROR in line 11: '*' char in begginning of operand should be followed with register name.
+ERROR in line 12: more operands expected for the instruction.
+ERROR in line 14: syntax error, lable name in the beggining of line don't have semicolon.
+ERROR in line 14: syntax error, wrong command name.
+ERROR in line 16: no operands provided for command jmp.
+ERROR in line 17: syntax error, lable name in the beggining of line don't have semicolon.
+ERROR in line 17: Illegal character in label.
+ERROR in line 17: illegal first operand provided to instruction "bne".
+ERROR in line 22: syntax error, lable name in the beggining of line don't have semicolon.
+ERROR in line 22: syntax error, wrong command name.
+
+Proceeding with file "errors_test.as":
+Error in proceeding file "errors_test.as".
+
+Proceeding with file "code_from_mmn14.as":
+File "code_from_mmn14.ob" created.
+File "code_from_mmn14.ext" created.
+File "code_from_mmn14.ent" created.
+Success!

@@ -1,0 +1,7 @@
+Please enter a char and string with whitespace between them: 
+Chosen symbol: D, provided string: alkdjapiewjD;klasmcpjemdDDmpmwepDpojkpo
+D;klasmcpjemdDDmpmwepDpojkpo
+DDmpmwepDpojkpo
+DmpmwepDpojkpo
+Dpojkpo
+There are 4 substrings starting with D in a given string.

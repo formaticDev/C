@@ -1,0 +1,46 @@
+osboxes@osboxes:~/Desktop/C1/exerc1$ make
+gcc -g -ansi -pedantic -Wall translate.c -o translate
+sboxes@osboxes:~/Desktop/C1$ ./translate.h 
+
+Enter number to put in char array:	0
+
+Number 0 in base 2: 0
+
+osboxes@osboxes:~/Desktop/C1$ ./translate.h 
+
+Enter number to put in char array:	2147483647
+
+Number 2147483647 in base 2: 1111111111111111111111111111111
+
+osboxes@osboxes:~/Desktop/C1$ ./translate.h 255
+
+Enter number to put in char array:	255
+
+Number 255 in base 2: 11111111
+
+
+sboxes@osboxes:~/Desktop/C1$ ./translate.h 
+
+Enter number to put in char array:	1234
+
+Number 1234 in base 2: 10011010010
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

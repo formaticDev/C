@@ -1,0 +1,7 @@
+Please enter a char and string with whitespace between them: 
+Chosen symbol: g, provided string: owekffpowegas[koefwkeogg[,cekg
+gas[koefwkeogg[,cekg
+gg[,cekg
+g[,cekg
+g
+There are 4 substrings starting with g in a given string.
